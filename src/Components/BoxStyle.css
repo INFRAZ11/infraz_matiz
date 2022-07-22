@@ -1,0 +1,96 @@
+body{
+    font-family:fantasy;
+    font-size: 20px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxOne{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+    padding: 30px;
+    margin:30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.boxTwo{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.boxThree{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.boxFour{
+    width: 200px;
+    height: 200px;
+    background-color:chocolate;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    /*margin-top: 210px;*/
+    position: absolute;
+    margin: 210px 0px 0px 0px;
+    margin-left: -50px;
+    background-color: skyblue;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#a1{
+    position: absolute;
+    /*margin-top: 270px;*/
+    margin: 270px 0px 300px 120px;
+    padding: 10px;
+    background-color: skyblue;
+    border: none;
+    left:40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.outer{
+    background-color: gray;
+    height: 350px;
+    width: 100%; 
+    box-shadow: 10px 10px 10px rebeccapurple;  
+}
+.navigation{
+    background-color: black;
+    width: 1250px;
+    display: flex;
+    position: relative;
+    bottom: 460px;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-right: 30px;
+}
+.navigation p{
+    color: #fff;
+    font-size: 25px;
+    font-family: none;
+    
+}
+.navigation p:hover{
+    color: blueviolet;
+}
+

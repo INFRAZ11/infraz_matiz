@@ -1,0 +1,18 @@
+
+.slide {
+    height: 500px;
+    width: 950px;
+    background-color: blue;
+    padding: 20px;
+}
+.navigation{
+    width: 950px;
+    height: 40px;
+    background-color: grey;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
